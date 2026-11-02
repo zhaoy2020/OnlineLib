@@ -1,0 +1,7 @@
+reflex
+sqlmodel
+numpy
+pandas 
+matplotlib
+seaborn
+
