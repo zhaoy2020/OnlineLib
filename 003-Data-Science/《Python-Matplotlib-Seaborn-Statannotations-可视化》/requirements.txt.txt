@@ -1,0 +1,15 @@
+
+ipykernel
+
+numpy
+pandas
+matplotlib
+seaborn
+
+SciencePlots
+
+scipy
+statsmodels
+statannotations
+
+scikit-learn

@@ -1,0 +1,16 @@
+[project]
+name = 'statskit'
+version = '0.1.0'
+description = 'A package for basic biostatistics calculations.'
+authors = [
+    { name = 'Zhao Yu'},
+]
+dependencies = [
+    'pingouin',
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

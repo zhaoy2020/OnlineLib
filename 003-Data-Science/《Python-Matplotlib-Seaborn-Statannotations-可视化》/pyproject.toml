@@ -1,0 +1,13 @@
+[project]
+name = "matplotlibbio"
+version = "0.1.0"
+description = "A library for visualizing biological data using Matplotlib."
+authors = [
+    { name = "Zhao Yu"},
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
