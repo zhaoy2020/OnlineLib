@@ -1,0 +1,17 @@
+[project]
+name = 'AlphaMath'
+version = '0.1.0'
+description = 'A Python library for advanced mathematics and probability statistics.'
+dependencies = [
+    'numpy',
+    'scipy',
+    'matplotlib',
+    'sympy',
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.packages.find]
+where = ["src"]
